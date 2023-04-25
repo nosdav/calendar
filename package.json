@@ -1,0 +1,27 @@
+{
+  "name": "nosdav-calendar",
+  "version": "0.0.0",
+  "description": "nosdav-calendar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosdav/calendar.git"
+  },
+  "keywords": [
+    "nostr",
+    "nostdav",
+    "app"
+  ],
+  "author": "Melvin Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nosdav/calendar/issues"
+  },
+  "homepage": "https://github.com/nosdav/calendar#readme",
+  "dependencies": {
+  }
+}
