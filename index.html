@@ -105,6 +105,8 @@
         loadBtn.addEventListener('click', async function () {
           var pubkey = await window.nostr.getPublicKey()
           var storage = `https://nosdav.nostr.rocks/${pubkey}/calendar/index.json`
+          var storageLink = document.getElementById('storage-link')
+          storageLink.href = storage
           fetch(storage, {
             method: 'GET'
           })
@@ -255,6 +257,9 @@
         <label for="drop-remove">remove after drop</label>
         <button id="save-button">Save</button>
         <button id="load-button">Load</button>
+        <a target="_blank" id="storage-link" style="text-decoration: none"
+          >🔗</a
+        >
       </p>
     </div>
 
